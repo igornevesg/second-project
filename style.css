@@ -17,6 +17,10 @@ h3 {
 color: white;
 }
 
+h4 {
+color: white;
+}
+
 span {
 color: white;
 }
@@ -30,10 +34,9 @@ font-size: 0.9em;
   background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 72px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 0.8em;
   font-weight: 700;
   border-radius: 15%;
@@ -42,8 +45,9 @@ font-size: 0.9em;
 
 .container {
 display: grid;
+justify-content: center;
 background-color: white;
-grid-template-columns: 300px 300px;
+grid-template-columns: 250px 250px;
 grid-template-rows: 250px 200px;
 grid-template-areas: "header header"
                      "content content2"
