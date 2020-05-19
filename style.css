@@ -1,0 +1,65 @@
+body {
+background-color: hsla(218, 22%, 67%, 0.5);
+font-family: 'Karla', sans-serif;
+}
+
+h1 {
+color: rgb(15, 169, 171);
+font-size: 1.5em;
+}
+
+h2{
+color: rgb(194, 218, 70);
+font-size: 1.15em;
+}
+
+h3 {
+color: white;
+}
+
+span {
+color: white;
+}
+
+.gray {
+color: hsl(229, 6%, 66%);
+font-size: 0.9em;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 700;
+  border-radius: 15%;
+  margin-top: 15px;
+}
+
+.container {
+display: grid;
+background-color: white;
+grid-template-columns: 300px 300px;
+grid-template-rows: 250px 200px;
+grid-template-areas: "header header"
+                     "content content2"
+}
+
+.item-1 {
+grid-area: header;
+margin: 20px 0px 0px 20px;
+}
+
+.item-2 {
+grid-area: content;
+background-color: rgb(43, 179, 177);
+}
+
+.item-3 {
+grid-area: content2;
+background-color: rgb(74, 190, 189);
+}
