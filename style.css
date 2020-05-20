@@ -30,6 +30,10 @@ color: hsl(229, 6%, 66%);
 font-size: 0.9em;
 }
 
+.space {
+margin-left: 20px;
+}
+
 .button {
   background-color: #4CAF50;
   border: none;
@@ -41,7 +45,7 @@ font-size: 0.9em;
   font-size: 0.8em;
   font-weight: 700;
   border-radius: 15%;
-  margin-top: 15px;
+  margin: 15px 0px 0px 20px;
 }
 
 .container {
