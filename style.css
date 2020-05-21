@@ -109,7 +109,7 @@ background-color: rgb(74, 190, 189);
 border-radius: 0px 0px 10px 0px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
 
 h1 {
 color: rgb(15, 169, 171);
@@ -194,8 +194,7 @@ flex-direction: column;
 flex-flow: column-nowrap;
 align-items: center;
 justify-content: center;
-margin: auto;
-
+margin: 0px;
 }
 
 .item-1 {
