@@ -190,6 +190,7 @@ font-size: 0.8em;
 display: flex;
 flex-direction: column;
 padding: 0px;
+margin: auto;
 }
 
 .item-1 {
